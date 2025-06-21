@@ -1,0 +1,92 @@
+body{
+    background-color:#fff4f4;
+    text-align: center;
+}
+
+h1{
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 30px;
+    color: rgb(173, 147, 214);
+}
+
+h2{
+    text-align: center;
+    font-family: cursive;
+    color: rgb(128, 76, 129);
+}
+
+h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+    color: rgb(128, 76, 129);
+}
+
+form{
+    width: 400px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(189, 145, 186);
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    width: 350px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgb(91, 33, 114);
+    border-radius: 5px;
+}
+
+button{
+    background-color: rgb(221, 183, 255);
+    border-radius: 20px;
+    border: solid 1px #D0A2F7;
+    box-shadow: inset 1px 1px 1px 1px #f6e8ff;
+    padding: 10px;
+    margin: auto;
+}
+
+#btncerrar{
+    margin: 30px;
+    background: linear-gradient(#FDE5EC, #FFABE1);
+    box-shadow: inset 1px 1px 1px 1px #FFABE1;
+    border: solid 1px #FFABE1;
+}
+
+#btniniciar{
+    background: linear-gradient(#ecffe6, #C7E9B0);
+    box-shadow: inset 1px 1px 1px 1px #C7E9B0;
+    border: solid 1px #C7E9B0;
+}
+
+img{
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.card{
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    
+}
+
+ul{
+    font-size: x-large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-position: inside;
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+
+
+
+
