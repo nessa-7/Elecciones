@@ -212,7 +212,7 @@ function cerrarVotaciones() {
           localStorage.setItem("votacionesCerradas", "true")
           localStorage.setItem("logueado", "false")
 
-          window.location.href = "sesion.html"
+          window.location.href = "index.html"
         }
       });
     })
@@ -228,12 +228,12 @@ function iniciarVotaciones() {
     const cerradas = localStorage.getItem("votacionesCerradas") === "true";
     if (!cerradas) {
       btnIniciar.style.display = "none"
-      return;
+      return
     }
 
     btnIniciar.addEventListener("click", () => {
       localStorage.setItem("reabrir", "true")
-      window.location.href = "sesion.html"
+      window.location.href = "index.html"
     });
   }
 }
